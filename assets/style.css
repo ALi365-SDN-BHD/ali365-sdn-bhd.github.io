@@ -187,7 +187,7 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(360px, 0.78fr) minmax(0, 1.22fr);
+  grid-template-columns: minmax(280px, 0.78fr) minmax(0, 1.22fr);
   gap: clamp(36px, 5vw, 72px);
   align-items: center;
   min-height: calc(100vh - 72px);
@@ -672,9 +672,9 @@ a {
   margin: 14px auto 0;
   max-width: 340px;
   color: #39506f;
-  font-size: clamp(14px, 1.1vw, 17px);
+  font-size: clamp(13px, 0.95vw, 15px);
   line-height: 1.4;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .panel-header {
@@ -761,7 +761,7 @@ a {
 .cta-band h2 {
   margin: 0;
   max-width: 760px;
-  font-size: clamp(32px, 4vw, 54px);
+  font-size: clamp(28px, 3.5vw, 46px);
   line-height: 1.08;
   letter-spacing: 0;
 }
@@ -801,7 +801,7 @@ a {
 
 .local-support-panel {
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(360px, 0.88fr);
+  grid-template-columns: minmax(0, 1.12fr) minmax(280px, 0.88fr);
   gap: clamp(28px, 4vw, 72px);
   align-items: center;
   min-height: 250px;
@@ -888,7 +888,7 @@ a {
 
 .split {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.7fr);
+  grid-template-columns: minmax(0, 0.9fr) minmax(260px, 0.7fr);
   gap: clamp(30px, 5vw, 72px);
   align-items: start;
   background: var(--ink);
@@ -1031,12 +1031,12 @@ a {
 .products-hero h1 {
   margin: 0;
   color: #071936;
-  font-size: clamp(44px, 6vw, 76px);
+  font-size: clamp(28px, 3.5vw, 42px);
   line-height: 1;
   letter-spacing: 0;
 }
 
-.products-hero p {
+.products-hero .eyebrow {
   max-width: 720px;
   margin: 20px 0 0;
   color: var(--muted);
@@ -1090,7 +1090,7 @@ a {
 
 .product-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(170px, 0.45fr);
+  grid-template-columns: minmax(0, 1fr) minmax(140px, 0.45fr);
   gap: 22px;
   align-items: center;
   min-height: 270px;
@@ -1150,7 +1150,7 @@ a {
 .product-card h2 {
   margin: 0;
   color: #071936;
-  font-size: clamp(25px, 2vw, 32px);
+  font-size: clamp(18px, 1.3vw, 22px);
   line-height: 1.15;
   letter-spacing: 0;
 }
@@ -1158,9 +1158,9 @@ a {
 .product-card p {
   margin: 14px 0 0;
   color: #39506f;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.55;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .product-tags {
@@ -1265,7 +1265,7 @@ a {
 .product-detail-copy h1 {
   margin: 0;
   color: #071936;
-  font-size: clamp(42px, 5vw, 68px);
+  font-size: clamp(28px, 3.5vw, 42px);
   line-height: 1;
   letter-spacing: 0;
 }
@@ -1274,9 +1274,9 @@ a {
   max-width: 720px;
   margin: 20px 0 0;
   color: #39506f;
-  font-size: clamp(18px, 1.5vw, 22px);
+  font-size: clamp(16px, 1.3vw, 18px);
   line-height: 1.55;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .detail-share {
@@ -1397,7 +1397,7 @@ a {
 .news-hero h1 {
   margin: 0;
   color: #071936;
-  font-size: clamp(44px, 6vw, 76px);
+  font-size: clamp(28px, 3.5vw, 42px);
   line-height: 1;
   letter-spacing: 0;
 }
@@ -1481,16 +1481,16 @@ a {
 .news-card h2 {
   margin: 14px 0 0;
   color: #071936;
-  font-size: clamp(22px, 1.8vw, 28px);
+  font-size: clamp(17px, 1.2vw, 21px);
   line-height: 1.16;
 }
 
 .news-card p {
   margin: 14px 0 0;
   color: #39506f;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.55;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .news-tags {
@@ -1551,7 +1551,7 @@ a {
 
 .news-detail-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.48fr);
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 0.48fr);
   gap: clamp(30px, 6vw, 70px);
   align-items: center;
   margin-bottom: 34px;
@@ -1564,7 +1564,7 @@ a {
 .news-detail-copy h1 {
   margin: 16px 0 0;
   color: #071936;
-  font-size: clamp(42px, 5vw, 68px);
+  font-size: clamp(28px, 3.5vw, 42px);
   line-height: 1;
 }
 
@@ -1572,9 +1572,9 @@ a {
   max-width: 720px;
   margin: 20px 0 0;
   color: #39506f;
-  font-size: clamp(18px, 1.5vw, 22px);
+  font-size: clamp(16px, 1.3vw, 18px);
   line-height: 1.55;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .news-detail-media {
@@ -1625,7 +1625,7 @@ a {
 .about-simple-hero h1 {
   margin: 0;
   color: #071936;
-  font-size: clamp(42px, 5vw, 64px);
+  font-size: clamp(34px, 4vw, 52px);
   line-height: 1;
   letter-spacing: 0;
 }
@@ -1660,9 +1660,9 @@ a {
 .about-simple-section p {
   margin: 16px 0 0;
   color: #39506f;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 1.65;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .about-simple-section {
@@ -1700,7 +1700,7 @@ a {
 .contact-hero h1 {
   margin: 0;
   color: #071936;
-  font-size: clamp(42px, 5vw, 66px);
+  font-size: clamp(34px, 4vw, 52px);
   line-height: 1;
   letter-spacing: 0;
 }
@@ -2091,7 +2091,7 @@ a.contact-info-card:focus-visible {
   }
 
   .hero-panel {
-    min-height: 360px;
+    min-height: 280px;
   }
 
   .hero-panel.hero-visual {
@@ -2136,8 +2136,8 @@ a.contact-info-card:focus-visible {
   }
 
   .ecosystem-card {
-    grid-template-columns: minmax(0, 1fr) minmax(260px, 0.7fr);
-    min-height: 380px;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 0.7fr);
+    min-height: 350px;
   }
 
   .technology-grid {
@@ -2382,7 +2382,8 @@ a.contact-info-card:focus-visible {
 
   .technology-item p {
     margin-top: 8px;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 500;
   }
 
   .metric-row {
@@ -2513,14 +2514,14 @@ a.contact-info-card:focus-visible {
   }
 
   .products-hero h1 {
-    font-size: clamp(38px, 12vw, 52px);
+    font-size: clamp(26px, 8vw, 34px);
   }
 
   .news-hero h1,
   .news-detail-copy h1,
   .about-simple-hero h1,
   .contact-hero h1 {
-    font-size: clamp(38px, 12vw, 52px);
+    font-size: clamp(26px, 8vw, 34px);
   }
 
   .products-hero p {
