@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://ali365.com.my/sitemap.xml
